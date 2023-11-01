@@ -1,0 +1,911 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9193E132C603F25B68B28229 /* Pods_IntelliPlusTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4822537CC7DD70FC057EFC46 /* Pods_IntelliPlusTests.framework */; };
+		B43E99E868B67BB1FF11F2CF /* Pods_IntelliPlus_IntelliPlusUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 207D07F5E62F2F1477892BDA /* Pods_IntelliPlus_IntelliPlusUITests.framework */; };
+		CE05156829E0AF9C007F6469 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = CE05156A29E0AF9C007F6469 /* Localizable.strings */; };
+		CE05156F29E0CB5F007F6469 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CE05156E29E0CB5F007F6469 /* GoogleService-Info.plist */; };
+		CE05157129E0D672007F6469 /* AuhtrnticatonFirebaseDatasource.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE05157029E0D672007F6469 /* AuhtrnticatonFirebaseDatasource.swift */; };
+		CE05157329E0DA50007F6469 /* AuthenticationRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE05157229E0DA50007F6469 /* AuthenticationRepository.swift */; };
+		CE05157529E0DBB9007F6469 /* AuthenticationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE05157429E0DBB9007F6469 /* AuthenticationViewModel.swift */; };
+		CE3D9E4529E4BA3B00E8589D /* UserProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3D9E4429E4BA3B00E8589D /* UserProfileView.swift */; };
+		CE4656E229DC88C600F1A4C6 /* GenerateImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4656E129DC88C600F1A4C6 /* GenerateImageView.swift */; };
+		CE4656E629DC89A700F1A4C6 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4656E529DC89A700F1A4C6 /* UserModel.swift */; };
+		CE4656E829DCBE5900F1A4C6 /* ImageContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4656E729DCBE5900F1A4C6 /* ImageContentView.swift */; };
+		CE4656EA29DCCD6000F1A4C6 /* CapaImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4656E929DCCD6000F1A4C6 /* CapaImageView.swift */; };
+		CE5EEA8529E331C60070DEBB /* CustomImputField.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5EEA8429E331C60070DEBB /* CustomImputField.swift */; };
+		CE5EEA8729E333D00070DEBB /* AuthHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5EEA8629E333D00070DEBB /* AuthHeaderView.swift */; };
+		CE5EEA8929E33B180070DEBB /* RegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5EEA8829E33B180070DEBB /* RegistrationView.swift */; };
+		CE797E6A29E34BB500E20754 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE797E6929E34BB500E20754 /* LaunchScreen.storyboard */; };
+		CEDB928A29DBBB8F00695D99 /* IntelliPlusApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDB928929DBBB8F00695D99 /* IntelliPlusApp.swift */; };
+		CEDB928C29DBBB8F00695D99 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDB928B29DBBB8F00695D99 /* ContentView.swift */; };
+		CEDB928E29DBBB9100695D99 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEDB928D29DBBB9100695D99 /* Assets.xcassets */; };
+		CEDB929129DBBB9100695D99 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEDB929029DBBB9100695D99 /* Preview Assets.xcassets */; };
+		CEDB929B29DBBB9100695D99 /* IntelliPlusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDB929A29DBBB9100695D99 /* IntelliPlusTests.swift */; };
+		CEDB92A529DBBB9100695D99 /* IntelliPlusUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDB92A429DBBB9100695D99 /* IntelliPlusUITests.swift */; };
+		CEDB92A729DBBB9200695D99 /* IntelliPlusUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDB92A629DBBB9200695D99 /* IntelliPlusUITestsLaunchTests.swift */; };
+		CEDB92B629DBBC7800695D99 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDB92B529DBBC7800695D99 /* LoginView.swift */; };
+		CEDB92B829DBBD3B00695D99 /* Tabview.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDB92B729DBBD3B00695D99 /* Tabview.swift */; };
+		CEDB92BA29DBBDD300695D99 /* ChatOpenAIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDB92B929DBBDD300695D99 /* ChatOpenAIView.swift */; };
+		CEDB92BC29DBBE2A00695D99 /* OpenAIServise.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDB92BB29DBBE2A00695D99 /* OpenAIServise.swift */; };
+		CEDB92BE29DBBEFB00695D99 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDB92BD29DBBEFB00695D99 /* ViewModel.swift */; };
+		CEDB92C229DBBF8A00695D99 /* PhotoOpenAIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDB92C129DBBF8A00695D99 /* PhotoOpenAIView.swift */; };
+		CEDB92C429DBBFEE00695D99 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDB92C329DBBFEE00695D99 /* Model.swift */; };
+		CEDB92C629DBC02400695D99 /* Constantes.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDB92C529DBC02400695D99 /* Constantes.swift */; };
+		CEDB92CA29DBC7F800695D99 /* OpenAISwift in Frameworks */ = {isa = PBXBuildFile; productRef = CEDB92C929DBC7F800695D99 /* OpenAISwift */; };
+		F2190D8A417275DE79FE9BA6 /* Pods_IntelliPlus.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 594035EDCE9458DF2302BA52 /* Pods_IntelliPlus.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CEDB929729DBBB9100695D99 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEDB927E29DBBB8F00695D99 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEDB928529DBBB8F00695D99;
+			remoteInfo = IntelliPlus;
+		};
+		CEDB92A129DBBB9100695D99 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEDB927E29DBBB8F00695D99 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEDB928529DBBB8F00695D99;
+			remoteInfo = IntelliPlus;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		136ECFFF86CF4A1D901F3CC7 /* Pods-IntelliPlus.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IntelliPlus.debug.xcconfig"; path = "Target Support Files/Pods-IntelliPlus/Pods-IntelliPlus.debug.xcconfig"; sourceTree = "<group>"; };
+		207D07F5E62F2F1477892BDA /* Pods_IntelliPlus_IntelliPlusUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IntelliPlus_IntelliPlusUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4822537CC7DD70FC057EFC46 /* Pods_IntelliPlusTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IntelliPlusTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		594035EDCE9458DF2302BA52 /* Pods_IntelliPlus.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IntelliPlus.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		73BB45E3BD10034E768CCB2A /* Pods-IntelliPlusTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IntelliPlusTests.debug.xcconfig"; path = "Target Support Files/Pods-IntelliPlusTests/Pods-IntelliPlusTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CE05156929E0AF9C007F6469 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		CE05156B29E0AFD1007F6469 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		CE05156E29E0CB5F007F6469 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		CE05157029E0D672007F6469 /* AuhtrnticatonFirebaseDatasource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuhtrnticatonFirebaseDatasource.swift; sourceTree = "<group>"; };
+		CE05157229E0DA50007F6469 /* AuthenticationRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationRepository.swift; sourceTree = "<group>"; };
+		CE05157429E0DBB9007F6469 /* AuthenticationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationViewModel.swift; sourceTree = "<group>"; };
+		CE3D9E4429E4BA3B00E8589D /* UserProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileView.swift; sourceTree = "<group>"; };
+		CE4656E129DC88C600F1A4C6 /* GenerateImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenerateImageView.swift; sourceTree = "<group>"; };
+		CE4656E529DC89A700F1A4C6 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		CE4656E729DCBE5900F1A4C6 /* ImageContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageContentView.swift; sourceTree = "<group>"; };
+		CE4656E929DCCD6000F1A4C6 /* CapaImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapaImageView.swift; sourceTree = "<group>"; };
+		CE5EEA8429E331C60070DEBB /* CustomImputField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomImputField.swift; sourceTree = "<group>"; };
+		CE5EEA8629E333D00070DEBB /* AuthHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthHeaderView.swift; sourceTree = "<group>"; };
+		CE5EEA8829E33B180070DEBB /* RegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationView.swift; sourceTree = "<group>"; };
+		CE797E6929E34BB500E20754 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CEDB928629DBBB8F00695D99 /* IntelliPlus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IntelliPlus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEDB928929DBBB8F00695D99 /* IntelliPlusApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntelliPlusApp.swift; sourceTree = "<group>"; };
+		CEDB928B29DBBB8F00695D99 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CEDB928D29DBBB9100695D99 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CEDB929029DBBB9100695D99 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CEDB929629DBBB9100695D99 /* IntelliPlusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IntelliPlusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEDB929A29DBBB9100695D99 /* IntelliPlusTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntelliPlusTests.swift; sourceTree = "<group>"; };
+		CEDB92A029DBBB9100695D99 /* IntelliPlusUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IntelliPlusUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEDB92A429DBBB9100695D99 /* IntelliPlusUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntelliPlusUITests.swift; sourceTree = "<group>"; };
+		CEDB92A629DBBB9200695D99 /* IntelliPlusUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntelliPlusUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CEDB92B529DBBC7800695D99 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		CEDB92B729DBBD3B00695D99 /* Tabview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tabview.swift; sourceTree = "<group>"; };
+		CEDB92B929DBBDD300695D99 /* ChatOpenAIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatOpenAIView.swift; sourceTree = "<group>"; };
+		CEDB92BB29DBBE2A00695D99 /* OpenAIServise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenAIServise.swift; sourceTree = "<group>"; };
+		CEDB92BD29DBBEFB00695D99 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		CEDB92C129DBBF8A00695D99 /* PhotoOpenAIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoOpenAIView.swift; sourceTree = "<group>"; };
+		CEDB92C329DBBFEE00695D99 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		CEDB92C529DBC02400695D99 /* Constantes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constantes.swift; sourceTree = "<group>"; };
+		DF384D396B4E61D94C6AB5E4 /* Pods-IntelliPlus.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IntelliPlus.release.xcconfig"; path = "Target Support Files/Pods-IntelliPlus/Pods-IntelliPlus.release.xcconfig"; sourceTree = "<group>"; };
+		E1B10ECFC8B72EA0A6A1D5D4 /* Pods-IntelliPlus-IntelliPlusUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IntelliPlus-IntelliPlusUITests.debug.xcconfig"; path = "Target Support Files/Pods-IntelliPlus-IntelliPlusUITests/Pods-IntelliPlus-IntelliPlusUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		EE7D25010891260337C66342 /* Pods-IntelliPlusTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IntelliPlusTests.release.xcconfig"; path = "Target Support Files/Pods-IntelliPlusTests/Pods-IntelliPlusTests.release.xcconfig"; sourceTree = "<group>"; };
+		F754C0DFA859FDEC11FF6A73 /* Pods-IntelliPlus-IntelliPlusUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IntelliPlus-IntelliPlusUITests.release.xcconfig"; path = "Target Support Files/Pods-IntelliPlus-IntelliPlusUITests/Pods-IntelliPlus-IntelliPlusUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEDB928329DBBB8F00695D99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEDB92CA29DBC7F800695D99 /* OpenAISwift in Frameworks */,
+				F2190D8A417275DE79FE9BA6 /* Pods_IntelliPlus.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEDB929329DBBB9100695D99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9193E132C603F25B68B28229 /* Pods_IntelliPlusTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEDB929D29DBBB9100695D99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B43E99E868B67BB1FF11F2CF /* Pods_IntelliPlus_IntelliPlusUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6E5BEF93C38372B6715B0355 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				136ECFFF86CF4A1D901F3CC7 /* Pods-IntelliPlus.debug.xcconfig */,
+				DF384D396B4E61D94C6AB5E4 /* Pods-IntelliPlus.release.xcconfig */,
+				E1B10ECFC8B72EA0A6A1D5D4 /* Pods-IntelliPlus-IntelliPlusUITests.debug.xcconfig */,
+				F754C0DFA859FDEC11FF6A73 /* Pods-IntelliPlus-IntelliPlusUITests.release.xcconfig */,
+				73BB45E3BD10034E768CCB2A /* Pods-IntelliPlusTests.debug.xcconfig */,
+				EE7D25010891260337C66342 /* Pods-IntelliPlusTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		929920D57416350D7231553E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				594035EDCE9458DF2302BA52 /* Pods_IntelliPlus.framework */,
+				207D07F5E62F2F1477892BDA /* Pods_IntelliPlus_IntelliPlusUITests.framework */,
+				4822537CC7DD70FC057EFC46 /* Pods_IntelliPlusTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE05156529E0AEFC007F6469 /* Lenguage */ = {
+			isa = PBXGroup;
+			children = (
+				CE05156A29E0AF9C007F6469 /* Localizable.strings */,
+			);
+			path = Lenguage;
+			sourceTree = "<group>";
+		};
+		CE5EEA8229E331000070DEBB /* Auhtentication */ = {
+			isa = PBXGroup;
+			children = (
+				CE05157429E0DBB9007F6469 /* AuthenticationViewModel.swift */,
+				CE05157029E0D672007F6469 /* AuhtrnticatonFirebaseDatasource.swift */,
+				CE05157229E0DA50007F6469 /* AuthenticationRepository.swift */,
+			);
+			path = Auhtentication;
+			sourceTree = "<group>";
+		};
+		CE5EEA8329E331380070DEBB /* Componentes */ = {
+			isa = PBXGroup;
+			children = (
+				CE5EEA8429E331C60070DEBB /* CustomImputField.swift */,
+				CE5EEA8629E333D00070DEBB /* AuthHeaderView.swift */,
+			);
+			path = Componentes;
+			sourceTree = "<group>";
+		};
+		CEDB927D29DBBB8F00695D99 = {
+			isa = PBXGroup;
+			children = (
+				CEDB928829DBBB8F00695D99 /* IntelliPlus */,
+				CEDB929929DBBB9100695D99 /* IntelliPlusTests */,
+				CEDB92A329DBBB9100695D99 /* IntelliPlusUITests */,
+				CEDB928729DBBB8F00695D99 /* Products */,
+				6E5BEF93C38372B6715B0355 /* Pods */,
+				929920D57416350D7231553E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CEDB928729DBBB8F00695D99 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEDB928629DBBB8F00695D99 /* IntelliPlus.app */,
+				CEDB929629DBBB9100695D99 /* IntelliPlusTests.xctest */,
+				CEDB92A029DBBB9100695D99 /* IntelliPlusUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEDB928829DBBB8F00695D99 /* IntelliPlus */ = {
+			isa = PBXGroup;
+			children = (
+				CEDB928929DBBB8F00695D99 /* IntelliPlusApp.swift */,
+				CE5EEA8329E331380070DEBB /* Componentes */,
+				CE5EEA8229E331000070DEBB /* Auhtentication */,
+				CE05156529E0AEFC007F6469 /* Lenguage */,
+				CEDB92B429DBBC4C00695D99 /* Model */,
+				CEDB92B329DBBC4300695D99 /* View */,
+				CEDB928D29DBBB9100695D99 /* Assets.xcassets */,
+				CE797E6929E34BB500E20754 /* LaunchScreen.storyboard */,
+				CE05156E29E0CB5F007F6469 /* GoogleService-Info.plist */,
+				CEDB928F29DBBB9100695D99 /* Preview Content */,
+			);
+			path = IntelliPlus;
+			sourceTree = "<group>";
+		};
+		CEDB928F29DBBB9100695D99 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CEDB929029DBBB9100695D99 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CEDB929929DBBB9100695D99 /* IntelliPlusTests */ = {
+			isa = PBXGroup;
+			children = (
+				CEDB929A29DBBB9100695D99 /* IntelliPlusTests.swift */,
+			);
+			path = IntelliPlusTests;
+			sourceTree = "<group>";
+		};
+		CEDB92A329DBBB9100695D99 /* IntelliPlusUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CEDB92A429DBBB9100695D99 /* IntelliPlusUITests.swift */,
+				CEDB92A629DBBB9200695D99 /* IntelliPlusUITestsLaunchTests.swift */,
+			);
+			path = IntelliPlusUITests;
+			sourceTree = "<group>";
+		};
+		CEDB92B329DBBC4300695D99 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CEDB92B529DBBC7800695D99 /* LoginView.swift */,
+				CE5EEA8829E33B180070DEBB /* RegistrationView.swift */,
+				CEDB928B29DBBB8F00695D99 /* ContentView.swift */,
+				CEDB92B729DBBD3B00695D99 /* Tabview.swift */,
+				CEDB92B929DBBDD300695D99 /* ChatOpenAIView.swift */,
+				CEDB92C129DBBF8A00695D99 /* PhotoOpenAIView.swift */,
+				CE4656E129DC88C600F1A4C6 /* GenerateImageView.swift */,
+				CE4656E729DCBE5900F1A4C6 /* ImageContentView.swift */,
+				CE4656E929DCCD6000F1A4C6 /* CapaImageView.swift */,
+				CE3D9E4429E4BA3B00E8589D /* UserProfileView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CEDB92B429DBBC4C00695D99 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CEDB92BB29DBBE2A00695D99 /* OpenAIServise.swift */,
+				CEDB92BD29DBBEFB00695D99 /* ViewModel.swift */,
+				CEDB92C329DBBFEE00695D99 /* Model.swift */,
+				CEDB92C529DBC02400695D99 /* Constantes.swift */,
+				CE4656E529DC89A700F1A4C6 /* UserModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEDB928529DBBB8F00695D99 /* IntelliPlus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEDB92AA29DBBB9200695D99 /* Build configuration list for PBXNativeTarget "IntelliPlus" */;
+			buildPhases = (
+				A68E429018B4845D42D55D82 /* [CP] Check Pods Manifest.lock */,
+				CEDB928229DBBB8F00695D99 /* Sources */,
+				CEDB928329DBBB8F00695D99 /* Frameworks */,
+				CEDB928429DBBB8F00695D99 /* Resources */,
+				D431D8414B3335405D0EF94D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IntelliPlus;
+			packageProductDependencies = (
+				CEDB92C929DBC7F800695D99 /* OpenAISwift */,
+			);
+			productName = IntelliPlus;
+			productReference = CEDB928629DBBB8F00695D99 /* IntelliPlus.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CEDB929529DBBB9100695D99 /* IntelliPlusTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEDB92AD29DBBB9200695D99 /* Build configuration list for PBXNativeTarget "IntelliPlusTests" */;
+			buildPhases = (
+				34A93D442D543C3DFA18A1D6 /* [CP] Check Pods Manifest.lock */,
+				CEDB929229DBBB9100695D99 /* Sources */,
+				CEDB929329DBBB9100695D99 /* Frameworks */,
+				CEDB929429DBBB9100695D99 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEDB929829DBBB9100695D99 /* PBXTargetDependency */,
+			);
+			name = IntelliPlusTests;
+			productName = IntelliPlusTests;
+			productReference = CEDB929629DBBB9100695D99 /* IntelliPlusTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CEDB929F29DBBB9100695D99 /* IntelliPlusUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEDB92B029DBBB9200695D99 /* Build configuration list for PBXNativeTarget "IntelliPlusUITests" */;
+			buildPhases = (
+				888B5D748540C008B6783C27 /* [CP] Check Pods Manifest.lock */,
+				CEDB929C29DBBB9100695D99 /* Sources */,
+				CEDB929D29DBBB9100695D99 /* Frameworks */,
+				CEDB929E29DBBB9100695D99 /* Resources */,
+				2E891E834E4329612609F62C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEDB92A229DBBB9100695D99 /* PBXTargetDependency */,
+			);
+			name = IntelliPlusUITests;
+			productName = IntelliPlusUITests;
+			productReference = CEDB92A029DBBB9100695D99 /* IntelliPlusUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEDB927E29DBBB8F00695D99 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					CEDB928529DBBB8F00695D99 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					CEDB929529DBBB9100695D99 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = CEDB928529DBBB8F00695D99;
+					};
+					CEDB929F29DBBB9100695D99 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = CEDB928529DBBB8F00695D99;
+					};
+				};
+			};
+			buildConfigurationList = CEDB928129DBBB8F00695D99 /* Build configuration list for PBXProject "IntelliPlus" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				es,
+			);
+			mainGroup = CEDB927D29DBBB8F00695D99;
+			packageReferences = (
+				CEDB92C829DBC7F800695D99 /* XCRemoteSwiftPackageReference "OpenAISwift" */,
+			);
+			productRefGroup = CEDB928729DBBB8F00695D99 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEDB928529DBBB8F00695D99 /* IntelliPlus */,
+				CEDB929529DBBB9100695D99 /* IntelliPlusTests */,
+				CEDB929F29DBBB9100695D99 /* IntelliPlusUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEDB928429DBBB8F00695D99 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEDB929129DBBB9100695D99 /* Preview Assets.xcassets in Resources */,
+				CE05156F29E0CB5F007F6469 /* GoogleService-Info.plist in Resources */,
+				CE05156829E0AF9C007F6469 /* Localizable.strings in Resources */,
+				CE797E6A29E34BB500E20754 /* LaunchScreen.storyboard in Resources */,
+				CEDB928E29DBBB9100695D99 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEDB929429DBBB9100695D99 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEDB929E29DBBB9100695D99 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2E891E834E4329612609F62C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IntelliPlus-IntelliPlusUITests/Pods-IntelliPlus-IntelliPlusUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IntelliPlus-IntelliPlusUITests/Pods-IntelliPlus-IntelliPlusUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-IntelliPlus-IntelliPlusUITests/Pods-IntelliPlus-IntelliPlusUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		34A93D442D543C3DFA18A1D6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IntelliPlusTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		888B5D748540C008B6783C27 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IntelliPlus-IntelliPlusUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A68E429018B4845D42D55D82 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IntelliPlus-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D431D8414B3335405D0EF94D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IntelliPlus/Pods-IntelliPlus-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IntelliPlus/Pods-IntelliPlus-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-IntelliPlus/Pods-IntelliPlus-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEDB928229DBBB8F00695D99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE05157129E0D672007F6469 /* AuhtrnticatonFirebaseDatasource.swift in Sources */,
+				CEDB92B629DBBC7800695D99 /* LoginView.swift in Sources */,
+				CE05157329E0DA50007F6469 /* AuthenticationRepository.swift in Sources */,
+				CE5EEA8929E33B180070DEBB /* RegistrationView.swift in Sources */,
+				CEDB92C629DBC02400695D99 /* Constantes.swift in Sources */,
+				CEDB928C29DBBB8F00695D99 /* ContentView.swift in Sources */,
+				CEDB92B829DBBD3B00695D99 /* Tabview.swift in Sources */,
+				CE3D9E4529E4BA3B00E8589D /* UserProfileView.swift in Sources */,
+				CE05157529E0DBB9007F6469 /* AuthenticationViewModel.swift in Sources */,
+				CEDB92C229DBBF8A00695D99 /* PhotoOpenAIView.swift in Sources */,
+				CE4656EA29DCCD6000F1A4C6 /* CapaImageView.swift in Sources */,
+				CE4656E629DC89A700F1A4C6 /* UserModel.swift in Sources */,
+				CE4656E829DCBE5900F1A4C6 /* ImageContentView.swift in Sources */,
+				CEDB92C429DBBFEE00695D99 /* Model.swift in Sources */,
+				CE5EEA8729E333D00070DEBB /* AuthHeaderView.swift in Sources */,
+				CEDB92BA29DBBDD300695D99 /* ChatOpenAIView.swift in Sources */,
+				CEDB928A29DBBB8F00695D99 /* IntelliPlusApp.swift in Sources */,
+				CEDB92BC29DBBE2A00695D99 /* OpenAIServise.swift in Sources */,
+				CEDB92BE29DBBEFB00695D99 /* ViewModel.swift in Sources */,
+				CE5EEA8529E331C60070DEBB /* CustomImputField.swift in Sources */,
+				CE4656E229DC88C600F1A4C6 /* GenerateImageView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEDB929229DBBB9100695D99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEDB929B29DBBB9100695D99 /* IntelliPlusTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEDB929C29DBBB9100695D99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEDB92A729DBBB9200695D99 /* IntelliPlusUITestsLaunchTests.swift in Sources */,
+				CEDB92A529DBBB9100695D99 /* IntelliPlusUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CEDB929829DBBB9100695D99 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEDB928529DBBB8F00695D99 /* IntelliPlus */;
+			targetProxy = CEDB929729DBBB9100695D99 /* PBXContainerItemProxy */;
+		};
+		CEDB92A229DBBB9100695D99 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEDB928529DBBB8F00695D99 /* IntelliPlus */;
+			targetProxy = CEDB92A129DBBB9100695D99 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CE05156A29E0AF9C007F6469 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE05156929E0AF9C007F6469 /* en */,
+				CE05156B29E0AFD1007F6469 /* es */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEDB92A829DBBB9200695D99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CEDB92A929DBBB9200695D99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEDB92AB29DBBB9200695D99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 136ECFFF86CF4A1D901F3CC7 /* Pods-IntelliPlus.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"IntelliPlus/Preview Content\"";
+				DEVELOPMENT_TEAM = L92U388WWB;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yoanpupo.IntelliPlus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CEDB92AC29DBBB9200695D99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF384D396B4E61D94C6AB5E4 /* Pods-IntelliPlus.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"IntelliPlus/Preview Content\"";
+				DEVELOPMENT_TEAM = L92U388WWB;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yoanpupo.IntelliPlus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CEDB92AE29DBBB9200695D99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73BB45E3BD10034E768CCB2A /* Pods-IntelliPlusTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yoanpupo.IntelliPlusTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IntelliPlus.app/IntelliPlus";
+			};
+			name = Debug;
+		};
+		CEDB92AF29DBBB9200695D99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE7D25010891260337C66342 /* Pods-IntelliPlusTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yoanpupo.IntelliPlusTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IntelliPlus.app/IntelliPlus";
+			};
+			name = Release;
+		};
+		CEDB92B129DBBB9200695D99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1B10ECFC8B72EA0A6A1D5D4 /* Pods-IntelliPlus-IntelliPlusUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yoanpupo.IntelliPlusUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = IntelliPlus;
+			};
+			name = Debug;
+		};
+		CEDB92B229DBBB9200695D99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F754C0DFA859FDEC11FF6A73 /* Pods-IntelliPlus-IntelliPlusUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yoanpupo.IntelliPlusUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = IntelliPlus;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEDB928129DBBB8F00695D99 /* Build configuration list for PBXProject "IntelliPlus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEDB92A829DBBB9200695D99 /* Debug */,
+				CEDB92A929DBBB9200695D99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEDB92AA29DBBB9200695D99 /* Build configuration list for PBXNativeTarget "IntelliPlus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEDB92AB29DBBB9200695D99 /* Debug */,
+				CEDB92AC29DBBB9200695D99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEDB92AD29DBBB9200695D99 /* Build configuration list for PBXNativeTarget "IntelliPlusTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEDB92AE29DBBB9200695D99 /* Debug */,
+				CEDB92AF29DBBB9200695D99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEDB92B029DBBB9200695D99 /* Build configuration list for PBXNativeTarget "IntelliPlusUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEDB92B129DBBB9200695D99 /* Debug */,
+				CEDB92B229DBBB9200695D99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CEDB92C829DBC7F800695D99 /* XCRemoteSwiftPackageReference "OpenAISwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/adamrushy/OpenAISwift.git";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = 1.2.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CEDB92C929DBC7F800695D99 /* OpenAISwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CEDB92C829DBC7F800695D99 /* XCRemoteSwiftPackageReference "OpenAISwift" */;
+			productName = OpenAISwift;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = CEDB927E29DBBB8F00695D99 /* Project object */;
+}

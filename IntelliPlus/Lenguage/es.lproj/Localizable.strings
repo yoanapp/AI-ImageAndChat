@@ -1,0 +1,22 @@
+/* 
+  Localizable.strings
+  IntelliPlus
+
+  Created by user on 7/4/23.
+  
+*/
+//GenerateImageView
+"text-File" = "Describe la imagen q desea generar";
+"gererar-imagen-button" = "Generar imagen";
+
+//LoginView
+"sigIn-Button" = "Registrar";
+"sigUp-Button" = "Acceder";
+"password-label" = "Contraseña";
+
+//ChatOpenAIView
+"title-NavigationBar" = "Chat";
+"placeholder-TextFile" = "Escriba su pregunta";
+"button-send" = "Enviar";
+"content-Message" = "Hola";
+"home-label-item" = "Imagen";

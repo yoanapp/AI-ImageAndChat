@@ -1,0 +1,18 @@
+
+//GenerateImageView
+"text-File" = "Describe the image you want to generate";
+"gererar-imagen-button" = "Generate an image";
+
+
+//LoginView
+"sigIn-Button" = "Register";
+"sigUp-Button" = "Access";
+"password-label" = "Password";
+
+  
+//ChatOpenAIView
+"title-NavigationBar" = "Chat";
+"placeholder-TextFile" = "Write your question";
+"button-send" = "Send";
+"content-Message" = "Hello";
+"home-label-item" = "Image";
